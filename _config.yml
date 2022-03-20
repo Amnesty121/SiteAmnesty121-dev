@@ -7,3 +7,5 @@ defaults:
       image: true
   - scope:
       path: "assets/pdf"
+  - scope:
+      path: "assets/fonts"
