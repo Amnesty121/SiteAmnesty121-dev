@@ -3,6 +3,11 @@ $md-screen: 48rem;
 $lg-screen: 64rem;
 $xl-screen: 80rem;
 
+@font-face {
+  font-family: "TradeGothic";
+  src: url("../assets/fonts/TradeGothic/Trade Gothic LT.ttf");
+}
+
 :root {
   --body-font-size: 16px;
   --body-line-height: 1.5;
