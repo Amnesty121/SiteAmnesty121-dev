@@ -6,6 +6,8 @@ layout: default
 
 AI est une organisation non gouvernementale (ONG) mondiale, Prix Nobel de la Paix en 1977. Plus de 7 millions de membres, militants et sympathisants se mobilisent dans le monde. Des sections ou structures sont présentes dans plus de 70 pays.
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/SAVuZFecQhM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Amnesty International en France
 
 Amnesty International France (AIF), créée en 1971, est une association Loi 1901, reconnue d’utilité publique. Elle fête ses 50 ans en 2021.
