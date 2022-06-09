@@ -5,13 +5,13 @@ draft: "true"
 excerpt_separator: <!--more-->
 ---
 
-Dans le cadre des élections législatives 2022, le groupe 121 a demandé aux candidats des circonscriptions [78-2](https://www.resultats-elections.interieur.gouv.fr/legislatives-2022/078/C107802.html) et [92-8](https://www.resultats-elections.interieur.gouv.fr/legislatives-2022/092/C109208.html), de signer, ou non, 10 engagements pour les droits humains, proposés par Amnesty International France.
+Dans le cadre des élections législatives 2022, le groupe 121 a demandé aux candidats des circonscriptions [78-2](https://www.resultats-elections.interieur.gouv.fr/legislatives-2022/078/C107802.html) et [92-8](https://www.resultats-elections.interieur.gouv.fr/legislatives-2022/092/C109208.html), de signer, ou non, 10 engagements pour les droits humains, proposés par Amnesty International France. Nous sommes parti à la rencontre des candidats de ces deux circonscriptions afin de leur demander si ils étaient prêt à s'engager de défendre ces droits, qui nous parraissent fondamentaux, au cours de leur potentiel mandat.
 
 ![image]({{site.url}}/SiteAmenesty121/assets/images/I5239.jpg)
 
 <!--more-->
 
-## Les 10 engagements sont les suivants:
+## 10 engagements pour les droits humains:
 
 1. Défendre le droit à la liberté d’expression et le droit à l’information partout dans le monde, et se montrer exemplaire pour les garantir en France.
 2. Protéger le droit de manifester en engageant une réforme structurelle du maintien de l’ordre pour aller vers des stratégies de dialogue et de désescalade, en commençant notamment par la suspension ou l’interdiction des armes susceptibles de mutiler les manifestants (LBD, grenades de désencerclement et grenades assourdissantes).
