@@ -4,6 +4,13 @@
 
   <body>
     <div id="layout" class="pure-g">
+      {% capture i18n_date %}
+{{ page.date | date: "%-d" }}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+{{ site.data.fr.months[m] }}
+{{ page.date | date: "%Y" }}
+{% endcapture %}
+      
       {% assign cover = site.cover | default: "https://amnesty121.github.io/SiteAmenesty121/cover.png" %}
       {% if page.cover %}
         {% assign cover = page.cover %}
