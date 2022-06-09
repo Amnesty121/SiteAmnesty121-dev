@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Plaidoyer pour les élection législatives 2022"
-tag: "Evénements à venir"
 draft: "true"
 excerpt_separator: <!--more-->
 ---
