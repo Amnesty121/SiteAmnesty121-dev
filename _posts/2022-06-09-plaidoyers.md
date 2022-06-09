@@ -27,7 +27,7 @@ Dans le cadre des élections législatives 2022, le groupe 121 a demandé aux ca
 - [Manifeste d'AIF pour les élections]({{site.url}}/SiteAmenesty121/assets/pdf/manifeste-legislatives-final.pdf)
 - [Détails des 10 engagements]({{site.url}}/SiteAmenesty121/assets/pdf/10_engagements_législatives.pdf)
 
-## Voici les réponses des candidats que nous avons pu joindre et qui ont acceptés de nous répondre:
+## Voici les réponses des candidats que nous avons pu joindre et qui ont acceptés de nous rencontrer:
 
 ### 2-ème circonscription des Yvelines
 
