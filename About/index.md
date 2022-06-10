@@ -19,7 +19,7 @@ Fin 2020, elle comptait plus de 114 000 membres et près de 387 000 donateurs ac
 # À Chaville-Vélizy-Viroflay le groupe 121 a besoin de vous
 
 - Contact : chavillevelizyviroflay@amnestyfrance.fr
-- [Bulletin d’adhésion]({{site.url}}/SiteAmenesty121/assets/pdf/ADHESION_AIF_bulletin_2011.pdf)
+- [Bulletin d’adhésion]({{site.url}}/SiteAmnesty121/assets/pdf/ADHESION_AIF_bulletin_2011.pdf)
 
 ## Campagnes et actions nouvelles ou récentes
 
