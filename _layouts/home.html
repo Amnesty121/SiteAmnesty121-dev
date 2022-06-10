@@ -25,6 +25,9 @@ layout: default
           {{ post.excerpt }}
         {% endif %}
       </p>
+      <a href="{{ post.url | relative_url }}">
+          Lire l'article complet
+        </a>
     </div>
   {% endif %}
   {% endfor %}
