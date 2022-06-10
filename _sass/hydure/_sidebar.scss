@@ -26,8 +26,7 @@
   font-weight: bold;
   line-height: 1.2;
   letter-spacing: -1px;
-  word-wrap: break-word;
-  color: #696969;
+  word-wrap: keep-all;
 }
 
 .brand-tagline {
@@ -35,6 +34,7 @@
   line-height: 1.2;
   letter-spacing: -1px;
   margin-top: 0;
+  color: #696969;
 }
 
 .nav {
