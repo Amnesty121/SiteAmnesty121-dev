@@ -23,8 +23,8 @@ Dans le cadre des élections législatives 2022, le groupe 121 a demandé aux ca
 9. Tout mettre en œuvre pour atteindre la neutralité carbone (zéro émission nette de gaz à effet de serre) en France à l’horizon 2050 au plus tard, afin de contribuer à empêcher la hausse mondiale des températures de +1,5°C par rapport à l’ère préindustrielle.
 10. Renforcer la loi sur le devoir de vigilance en élargissant son champ d’application et œuvrer à l’adoption d’une directive européenne ambitieuse consacrant cette protection en Europe.
 
-- [Manifeste d'AIF pour les élections]({{site.url}}/SiteAmenesty121/assets/pdf/manifeste-legislatives-final.pdf)
-- [Détails des 10 engagements]({{site.url}}/SiteAmenesty121/assets/pdf/10_engagements_législatives.pdf)
+- [Manifeste d'AIF pour les élections]({{site.url}}/SiteAmnesty121/assets/pdf/manifeste-legislatives-final.pdf)
+- [Détails des 10 engagements]({{site.url}}/SiteAmnesty121/assets/pdf/10_engagements_législatives.pdf)
 
 ## Voici les réponses des candidats que nous avons pu joindre et qui ont accepté de nous rencontrer
 
