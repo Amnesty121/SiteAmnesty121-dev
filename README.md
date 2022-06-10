@@ -1,1 +1,1 @@
-[Lien](https://amnesty121.github.io/SiteAmenesty121/)
+[Lien](https://amnesty121.github.io/SiteAmnesty121/)
