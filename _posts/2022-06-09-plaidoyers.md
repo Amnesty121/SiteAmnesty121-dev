@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 
 Dans le cadre des élections législatives 2022, le groupe 121 a demandé aux candidats des circonscriptions [78-2](https://www.resultats-elections.interieur.gouv.fr/legislatives-2022/078/C107802.html) et [92-8](https://www.resultats-elections.interieur.gouv.fr/legislatives-2022/092/C109208.html), de signer, ou non, 10 engagements pour les droits humains, proposés par Amnesty International France. Nous sommes partis à la rencontre des candidats de ces deux circonscriptions afin de leur demander si ils étaient prêts à s'engager de défendre ces droits, qui nous paraissent fondamentaux, au cours de leur potentiel mandat.
 
-![image]({{site.url}}/SiteAmenesty121/assets/images/I5239.jpg)
+![image]({{site.url}}/SiteAmnesty121/assets/images/I5239.jpg)
 
 <!--more-->
 
