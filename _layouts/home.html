@@ -16,7 +16,7 @@ layout: default
         </a>
       </h2>
 
-      {% assign months = "Janvier|Février]Mars|Abril|Mayo|Juin|Julio|Agosto|Septiembre|Octubre|Noviembre|Diciembre" | split: "|" %}
+      {% assign months = "Janvier|Février|Mars|Avril|Mai|Juin|Juillet|Août|Septembre|Octobre|Novembre|Décembre" | split: "|" %}
       {% assign m = post.date | date: "%-m" | minus: 1 %}
       {% assign day = post.date | date: "%d" %}
       {% assign month = months[m] %}
