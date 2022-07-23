@@ -69,5 +69,4 @@ layout: postlist
    </div>
     
 </div> 
-  </div>
 </article>
