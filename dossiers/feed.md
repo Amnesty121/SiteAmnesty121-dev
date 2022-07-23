@@ -55,6 +55,7 @@ layout: postlist
          </div>
       </div>
    </div>
+</div> 
     
     <div class="m-2 w-full">
    <div class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]">
@@ -67,6 +68,7 @@ layout: postlist
          </div>
       </div>
    </div>
+</div> 
     
 </div> 
 </article>
