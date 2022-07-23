@@ -1,3 +1,7 @@
+---
+layout: postlist
+---
+
 <article class="post">
   <div class="m-2 w-full">
    <h3 class="font-heading mb-2 font-medium uppercase text-stone-900">Discord</h3>
