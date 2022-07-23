@@ -19,7 +19,7 @@ layout: postlist
   <div class="feed-grid">
   
   <div class="m-2 w-full">
-   <div class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]" onclick="location.href='https://www.courrierinternational.com/article/guerre-la-russie-pilonne-odessa-moins-d-un-jour-apres-avoir-signe-un-accord-sur-le-ble-ukrainien';">
+   <div class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]" onclick="window.open('https://www.courrierinternational.com/article/guerre-la-russie-pilonne-odessa-moins-d-un-jour-apres-avoir-signe-un-accord-sur-le-ble-ukrainien');">
       <div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3">
          <div class="mt-2 text-xs font-normal leading-4 text-white" style="grid-column: 1 / 1;">Courrier international</div>
          <div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">Guerre. La Russie pilonne Odessa moins d’un jour après avoir signé un accord sur le blé ukrainien</div>
@@ -55,6 +55,19 @@ layout: postlist
          </div>
       </div>
    </div>
+    
+    <div class="m-2 w-full">
+   <div class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]">
+      <div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3">
+         <div class="mt-2 text-xs font-normal leading-4 text-white" style="grid-column: 1 / 1;">Courrier international</div>
+         <div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">Guerre. La Russie pilonne Odessa moins d’un jour après avoir signé un accord sur le blé ukrainien</div>
+         <div class="mt-2 whitespace-pre-line break-words border-0 p-0 text-sm font-normal text-[#dcddde]" style="grid-column: 1 / 1;">Sous la houlette de l’ONU, la reprise des exportations de céréales via la mer Noire avait été actée par la Russie et l’Ukraine vendredi 22 juillet à Istanbul. C...</div>
+         <div class="mt-4 overflow-hidden rounded">
+            <div class="relative block "><img src="https://focus.courrierinternational.com/2022/07/23/0/0/1024/682/1200/630/60/0/b3c03f8_1658583722316-075-kharchenko-notitle220721-npbqa.jpg" alt="Guerre. La Russie pilonne Odessa moins d’un jour après avoir signé un accord sur le blé ukrainien"></div>
+         </div>
+      </div>
+   </div>
+    
 </div> 
   </div>
 </article>
