@@ -3,6 +3,7 @@ layout: postlist
 ---
 
 <style>
+w-full {
     color-scheme: dark !important;
     -webkit-text-size-adjust: 100%;
     tab-size: 4;
@@ -92,6 +93,7 @@ layout: postlist
     --tw-shadow-colored: 0 0 #0000;
     margin: .5rem;
     width: 100%;
+}
 </style>
 
 <article class="post">
