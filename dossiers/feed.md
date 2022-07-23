@@ -1,3 +1,7 @@
+---
+layout: postlist
+---
+
 <style>
     color-scheme: dark !important;
     -webkit-text-size-adjust: 100%;
