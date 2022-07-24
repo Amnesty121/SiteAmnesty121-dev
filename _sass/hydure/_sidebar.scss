@@ -6,17 +6,17 @@
 .sidebar-shield {
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.1);
+  background-color: var(--side-shield)
 }
 
 .header {
   width: 100%;
   text-align: center;
-  text-shadow: 1px 1px 3px var(--oc-black);
+  text-shadow: 1px 1px 3px var(--side-heading-shadow);
   padding: 2em;
 
   a {
-    color: var(--oc-white);
+    color: var(--side-heading-color);
   }
 }
 
@@ -34,6 +34,8 @@
   line-height: 1.2;
   letter-spacing: -1px;
   margin-top: 0;
+
+  color: var(--side-heading-color);
 }
 
 .nav {

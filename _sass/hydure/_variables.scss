@@ -9,6 +9,8 @@ $xl-screen: 80rem;
 }
 
 :root {
+  --oc-yellow-ai: rgb(251,251,4);
+
   --body-font-size: 16px;
   --body-line-height: 1.5;
   --body-color:       var(--oc-gray-9);
@@ -16,13 +18,16 @@ $xl-screen: 80rem;
   --body-bg:          var(--oc-white);
   --link-color:       var(--oc-blue-9);
   --heading-color:    var(--oc-black);
+  --side-heading-color:  var(--oc-yellow-ai);
+  --side-heading-shadow:   var(--oc-gray-9);
+  --side-shield: var(--oc-gray-9);
   
   --body-font:  "Trade Gothic", sans-serif;
   --brand-title-font:  "Trade Gothic", sans-serif;
   --heading-font:  "Trade Gothic", sans-serif;
   --code-font:  "Trade Gothic", sans-serif;
 
-  --sidebar-color: var(--oc-white);
+  --sidebar-color: var(--oc-black);
 
   --message-color: var(--oc-white);
   --message-bg:    var(--oc-yellow-9);
@@ -40,6 +45,7 @@ $xl-screen: 80rem;
     --body-bg:          var(--oc-gray-9);
     --link-color:       var(--oc-blue-4);
     --heading-color:    var(--oc-white);
+    --heading-shadow:   var(--oc-black);
 
     --message-color: var(--oc-gray-9);
     --message-bg:    var(--oc-yellow-4);
@@ -47,5 +53,6 @@ $xl-screen: 80rem;
     --border-color:  var(--oc-gray-7);
 
     --code-bg:       var(--oc-gray-8);
+    --side-shield: rgba(0,0,0,0.1);
   }
 }
