@@ -15,21 +15,86 @@ layout: postlist
 
 </style>
 
+<script>
+   if (window.XMLHttpRequest) {
+   xhttp = new XMLHttpRequest();
+   } else {    // IE 5/6
+      xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+   }
+
+   xhttp.overrideMimeType('text/xml');
+
+   xhttp.open("GET", "ouighour.xml", false);
+   xhttp.send(null);
+   
+   var parser = new DOMParser();
+   var xmlDoc = parser.parseFromString(xhttp.responseText, "application/xml");
+   
+
+   const Template = ({ title, domain, image, link, description }) => `
+  <div class="m-2 w-full">
+    <div class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]" onclick="window.open('${link}');">
+       <div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3">
+          <div class="mt-2 text-xs font-normal leading-4 feed-text" style="grid-column: 1 / 1;">${domain}</div>
+          <div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">${description}</div>
+          <div class="mt-4 overflow-hidden rounded">
+             <div class="relative block "><img src="${image}" alt="${title}"></div>
+          </div>
+       </div>
+    </div>
+ </div> 
+`;
+
+   var articlesFeed = document.getElementById("feed");
+   var articles = xmlDoc.getElementsByTagName("article");
+
+   for(let article of articles){
+      var title = article.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+
+      var domain = "";
+      var link = "";
+      var image = "";
+      var description = "";
+      
+      var metas = article.getElementsByTagName("meta");
+      for(let meta of metas){
+         var propertyType = meta.getAttribute("property");
+
+         switch(propertyType){
+            case "twitter:domain":
+               domain = meta.getAttribute("content");
+               break;
+            case "og:url":
+               link = meta.getAttribute("content");
+               break;
+            case "og:image":
+               image = meta.getAttribute("content");
+               break;
+            case "og:description":
+               description = meta.getAttribute("content");
+               break;
+         }
+      }
+
+
+      console.log(title);
+      console.log(domain);
+      console.log(image);
+      console.log(description);
+   }
+
+   $('.list-items').html([
+  { url: '/foo', img: 'foo.png', title: 'Foo item' },
+  { url: '/bar', img: 'bar.png', title: 'Bar item' },
+].map(Item).join(''));
+</script>
+
 <article class="post">
   <div class="feed-grid">
+
+<div id="feed">
+</div>  
   
-  <div class="m-2 w-full">
-   <div class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]" onclick="window.open('https://www.courrierinternational.com/article/guerre-la-russie-pilonne-odessa-moins-d-un-jour-apres-avoir-signe-un-accord-sur-le-ble-ukrainien');">
-      <div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3">
-         <div class="mt-2 text-xs font-normal leading-4 feed-text" style="grid-column: 1 / 1;">Courrier international</div>
-         <div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">Guerre. La Russie pilonne Odessa moins d’un jour après avoir signé un accord sur le blé ukrainien</div>
-         <div class="mt-2 whitespace-pre-line break-words border-0 p-0 text-sm font-normal text-[#dcddde]" style="grid-column: 1 / 1;">Sous la houlette de l’ONU, la reprise des exportations de céréales via la mer Noire avait été actée par la Russie et l’Ukraine vendredi 22 juillet à Istanbul. C...</div>
-         <div class="mt-4 overflow-hidden rounded">
-            <div class="relative block "><img src="https://focus.courrierinternational.com/2022/07/23/0/0/1024/682/1200/630/60/0/b3c03f8_1658583722316-075-kharchenko-notitle220721-npbqa.jpg" alt="Guerre. La Russie pilonne Odessa moins d’un jour après avoir signé un accord sur le blé ukrainien"></div>
-         </div>
-      </div>
-   </div>
-</div> 
   
   <div class="m-2 w-full">
    <div class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]">
