@@ -15,6 +15,8 @@ layout: postlist
 
 </style>
 
+<script src="/assets/js/jquery-3.6.0.min.js"></script>
+
 <script>
    if (window.XMLHttpRequest) {
    xhttp = new XMLHttpRequest();
@@ -48,6 +50,8 @@ layout: postlist
    var articlesFeed = document.getElementById("feed");
    var articles = xmlDoc.getElementsByTagName("article");
 
+   var articleFormattedMetadata = [];
+
    for(let article of articles){
       var title = article.getElementsByTagName("title")[0].childNodes[0].nodeValue;
 
@@ -76,18 +80,15 @@ layout: postlist
          }
       }
 
-
-      console.log(title);
-      console.log(domain);
-      console.log(image);
-      console.log(description);
+      articleFormattedMetadata.push({ title: title, domain: domain, image: image, link: link, description: description });
    }
 
-   $('.list-items').html([
-  { url: '/foo', img: 'foo.png', title: 'Foo item' },
-  { url: '/bar', img: 'bar.png', title: 'Bar item' },
-].map(Item).join(''));
+console.log(articleFormattedMetadata);
+
+   $('feed').html(articleFormattedMetadata.map(Template).join(''));
 </script>
+
+
 
 <article class="post">
   <div class="feed-grid">
@@ -95,55 +96,5 @@ layout: postlist
 <div id="feed">
 </div>  
   
-  
-  <div class="m-2 w-full">
-   <div class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]">
-      <div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3">
-         <div class="mt-2 text-xs font-normal leading-4 feed-text" style="grid-column: 1 / 1;">Courrier international</div>
-         <div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">Guerre. La Russie pilonne Odessa moins d’un jour après avoir signé un accord sur le blé ukrainien</div>
-         <div class="mt-2 whitespace-pre-line break-words border-0 p-0 text-sm font-normal text-[#dcddde]" style="grid-column: 1 / 1;">Sous la houlette de l’ONU, la reprise des exportations de céréales via la mer Noire avait été actée par la Russie et l’Ukraine vendredi 22 juillet à Istanbul. C...</div>
-         <div class="mt-4 overflow-hidden rounded">
-            <div class="relative block "><img src="https://focus.courrierinternational.com/2022/07/23/0/0/1024/682/1200/630/60/0/b3c03f8_1658583722316-075-kharchenko-notitle220721-npbqa.jpg" alt="Guerre. La Russie pilonne Odessa moins d’un jour après avoir signé un accord sur le blé ukrainien"></div>
-         </div>
-      </div>
-   </div>
-</div> 
-  
-  <div class="m-2 w-full">
-   <div class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]">
-      <div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3">
-         <div class="mt-2 text-xs font-normal leading-4 text-white" style="grid-column: 1 / 1;">Courrier international</div>
-         <div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">Guerre. La Russie pilonne Odessa moins d’un jour après avoir signé un accord sur le blé ukrainien</div>
-         <div class="mt-2 whitespace-pre-line break-words border-0 p-0 text-sm font-normal text-[#dcddde]" style="grid-column: 1 / 1;">Sous la houlette de l’ONU, la reprise des exportations de céréales via la mer Noire avait été actée par la Russie et l’Ukraine vendredi 22 juillet à Istanbul. C...</div>
-         <div class="mt-4 overflow-hidden rounded">
-            <div class="relative block "><img src="https://focus.courrierinternational.com/2022/07/23/0/0/1024/682/1200/630/60/0/b3c03f8_1658583722316-075-kharchenko-notitle220721-npbqa.jpg" alt="Guerre. La Russie pilonne Odessa moins d’un jour après avoir signé un accord sur le blé ukrainien"></div>
-         </div>
-      </div>
-   </div>
-</div> 
-    
-    <div class="m-2 w-full">
-   <div class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]">
-      <div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3">
-         <div class="mt-2 text-xs font-normal leading-4 text-white" style="grid-column: 1 / 1;">Courrier international</div>
-         <div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">Guerre. La Russie pilonne Odessa moins d’un jour après avoir signé un accord sur le blé ukrainien</div>
-         <div class="mt-2 whitespace-pre-line break-words border-0 p-0 text-sm font-normal text-[#dcddde]" style="grid-column: 1 / 1;">Sous la houlette de l’ONU, la reprise des exportations de céréales via la mer Noire avait été actée par la Russie et l’Ukraine vendredi 22 juillet à Istanbul. C...</div>
-         <div class="mt-4 overflow-hidden rounded">
-            <div class="relative block "><img src="https://focus.courrierinternational.com/2022/07/23/0/0/1024/682/1200/630/60/0/b3c03f8_1658583722316-075-kharchenko-notitle220721-npbqa.jpg" alt="Guerre. La Russie pilonne Odessa moins d’un jour après avoir signé un accord sur le blé ukrainien"></div>
-         </div>
-      </div>
-   </div>
-</div> 
-    
-    <div onclick="window.open('https://www.leparisien.fr/international/chine-dans-le-comte-ouighour-un-habitant-sur-25-a-ete-condamne-pour-terrorisme-16-05-2022-4OJ5XJIVEBDXBJMRCGPWJD3JHY.php');" class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]"><div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3"><div class="mt-2 text-xs font-normal leading-4 text-white" style="grid-column: 1 / 1;">leparisien.fr</div><div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">Chine : dans le comté ouïghour, un habitant sur 25 a été condamné pour «terrorisme»</div><div class="mt-2 whitespace-pre-line break-words border-0 p-0 text-sm font-normal text-[#dcddde]" style="grid-column: 1 / 1;">Sous la pression internationale, Pékin a fermé ses immenses centres de rétention de la minorité ouïghoure, mais le gouvernement chinois aura</div><div class="mt-4 overflow-hidden rounded"><div class="relative block "><img src="https://www.leparisien.fr/resizer/4mQWej8Hv26vKsRJ-Q2kXd6kbwQ=/1200x675/cloudfront-eu-central-1.images.arcpublishing.com/leparisien/MKUABM7U6BYJ3Q4HINRTAYKO2U.jpg" alt="Chine : dans le comté ouïghour, un habitant sur 25 a été condamné pour «terrorisme»"></div></div></div></div>
-    
-    <div onclick="window.open('https://www.sudouest.fr/international/chine/ouighours-en-chine-elle-decouvre-le-sort-de-son-frere-disparu-en-lisant-une-liste-de-condamnes-10970240.php');" class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]"><div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3"><div class="mt-2 text-xs font-normal leading-4 text-white" style="grid-column: 1 / 1;">SudOuest.fr</div><div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">Ouïghours en Chine&nbsp;: elle découvre le sort de son frère disparu en lisant une liste de condamnés</div><div class="mt-2 whitespace-pre-line break-words border-0 p-0 text-sm font-normal text-[#dcddde]" style="grid-column: 1 / 1;">Deux listes, détaillant plusieurs dizaines de milliers de noms, ont permis à la population ouïghoure exilée d’en savoir plus sur ce qui est arrivé à des proches restés en Chine et soumis à la persécution des autorités</div><div class="mt-4 overflow-hidden rounded"><div class="relative block "><img src="https://media.sudouest.fr/10970240/1200x-1/6591212.jpg" alt="Ouïghours en Chine&nbsp;: elle découvre le sort de son frère disparu en lisant une liste de condamnés"></div></div></div></div>
-    
-    <div onclick="window.open('https://www.lemonde.fr/international/article/2022/05/24/ouigours-au-c-ur-de-la-machine-repressive-chinoise_6127417_3210.html');" class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]"><div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3"><div class="mt-2 text-xs font-normal leading-4 text-white" style="grid-column: 1 / 1;">Le Monde.fr</div><div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">«&nbsp;Xinjiang Police Files&nbsp;»&nbsp;: révélations sur la machine répressive chinoise contre les Ouïgours</div><div class="mt-2 whitespace-pre-line break-words border-0 p-0 text-sm font-normal text-[#dcddde]" style="grid-column: 1 / 1;">Des milliers de documents de la police chinoise, livrés à un chercheur et publiés par des médias internationaux, dont «&nbsp;Le&nbsp;Monde&nbsp;», racontent l’obsession sécuritaire dans les camps d’internement de la minorité musulmane en Chine.</div><div class="mt-4 overflow-hidden rounded"><div class="relative block "><img src="https://img.lemde.fr/2022/05/23/0/357/837/558/1440/960/60/0/88807a2_1653313072544-mosaique-step-05-2800.jpg" alt="«&nbsp;Xinjiang Police Files&nbsp;»&nbsp;: révélations sur la machine répressive chinoise contre les Ouïgours"></div></div></div></div>
-    
-    <div onclick="window.open('https://www.lemonde.fr/idees/article/2022/05/24/repression-des-ouigours-temoigner-contre-la-machine-a-broyer-chinoise_6127471_3232.html');" class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]"><div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3"><div class="mt-2 text-xs font-normal leading-4 text-white" style="grid-column: 1 / 1;">Le Monde.fr</div><div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">Répression des Ouïgours&nbsp;: témoigner contre la machine à broyer chinoise</div><div class="mt-2 whitespace-pre-line break-words border-0 p-0 text-sm font-normal text-[#dcddde]" style="grid-column: 1 / 1;">ÉDITORIAL. Les «&nbsp;Xinjiang Police Files&nbsp;», documents issus des forces de sécurités chinoises et publiés par un groupe de médias internationaux, dont «&nbsp;Le Monde&nbsp;», rappellent qu’il faut garder les yeux grands ouverts sur la réalité que la Chine représente aujourd’hui.</div><div class="mt-4 overflow-hidden rounded"><div class="relative block "><img src="https://img.lemde.fr/2022/05/18/0/0/1920/1280/1440/960/60/0/81a9321_1652891429609-img-7750-1.JPG" alt="Répression des Ouïgours&nbsp;: témoigner contre la machine à broyer chinoise"></div></div></div></div>
-    
-    
-    
 </div> 
 </article>
