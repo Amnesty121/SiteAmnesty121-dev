@@ -40,9 +40,9 @@ layout: default
         <div class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[#202225] bg-[#2f3136] font-[Helvetica]" onclick="window.open('${link}');">
            <div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3">
               <div class="mt-2 text-xs font-normal leading-4 feed-text" style="grid-column: 1 / 1;">${domain}</div>
-              <div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">${description}</div>
+              <div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">${title}</div>
               <div class="mt-4 overflow-hidden rounded">
-                 <div class="relative block "><img src="${image}" alt="${title}"></div>
+                 <div class="relative block "><img src="${image}" alt="${description}"></div>
               </div>
            </div>
         </div>
@@ -93,7 +93,7 @@ layout: default
     
     
     <article class="post">
-      <div class="feed-grid">
+      <div class="feed-grid feed-content">
     
     <div class="feed-content">
     </div>  
