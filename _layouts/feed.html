@@ -41,6 +41,7 @@ layout: default
            <div class="inline-grid grid-cols-[auto] grid-rows-[auto] overflow-hidden pt-2 pr-4 pb-4 pl-3">
               <div class="mt-2 text-xs font-normal leading-4 feed-text" style="grid-column: 1 / 1;">${domain}</div>
               <div class="mt-2 inline-block break-words text-base font-semibold text-[#00b0f4]" style="grid-column: 1 / 1;">${title}</div>
+              <div class="mt-2 whitespace-pre-line break-words border-0 p-0 text-sm font-normal text-[#dcddde]" style="grid-column: 1 / 1;">${description}</div>
               <div class="mt-4 overflow-hidden rounded">
                  <div class="relative block "><img src="${image}" alt="${description}"></div>
               </div>
@@ -86,7 +87,7 @@ layout: default
        }
        
        $("div.feed-content").ready(function(){
-          $("div.feed-content").html(articleFormattedMetadata.map(Template).join(''));
+          $("div.feed-content").html(articleFormattedMetadata.reverse().map(Template).join(''));
        });
     </script>
     
