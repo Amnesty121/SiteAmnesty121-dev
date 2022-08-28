@@ -12,7 +12,7 @@
   <meta property="og:type" content="website"/>
   <meta property="og:title" content="Israël - Territoires palestiniens occupés"/>
   <meta property="og:description" content=""/>
-  <meta property="og:image" content="/assets/images/itpo.png"/>
+  <meta property="og:image" content="https://amnesty121.github.io/SiteAmnesty121/assets/images/itpo.png"/>
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image"/>
@@ -20,7 +20,7 @@
   <meta property="twitter:url" content="./itpo"/>
   <meta name="twitter:title" content="Israël - Territoires palestiniens occupés"/>
   <meta name="twitter:description" content=""/>
-  <meta name="twitter:image" content="/assets/images/itpo.png"/>
+  <meta name="twitter:image" content="https://amnesty121.github.io/SiteAmnesty121/assets/images/itpo.png"/>
         
 
     </article>
@@ -35,7 +35,7 @@
   <meta property="og:type" content="website"/>
   <meta property="og:title" content="Ouïghours au Xinjiang"/>
   <meta property="og:description" content=""/>
-  <meta property="og:image" content="/assets/images/ouighour.png"/>
+  <meta property="og:image" content="https://amnesty121.github.io/SiteAmnesty121/assets/images/ouighour.png"/>
 
   <!-- Twitter Meta Tags -->
   <meta name="twitter:card" content="summary_large_image"/>
@@ -43,7 +43,7 @@
   <meta property="twitter:url" content="./ouighour"/>
   <meta name="twitter:title" content="Ouïghours au Xinjiang"/>
   <meta name="twitter:description" content=""/>
-  <meta name="twitter:image" content="/assets/images/ouighour.png"/>
+  <meta name="twitter:image" content="https://amnesty121.github.io/SiteAmnesty121/assets/images/ouighour.png"/>
 
     </article>
         
