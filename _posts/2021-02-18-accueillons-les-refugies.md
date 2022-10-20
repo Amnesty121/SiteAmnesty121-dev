@@ -4,7 +4,7 @@ title:  "Ville d'Avray : Accueillons les Réfugiés. Une série d'évènements e
 tag: "Evénements à venir"
 excerpt_separator: <!--more-->
 ---
-![image]({{site.url}}/SiteAmnesty121/assets/images/2.jpg)
+![image]({{site.url}}/assets/images/2.jpg)
 
 **Amnesty International (Groupe local de Chaville-Vélizy-Viroflay)** est partenaire d’une série d’évènements concernant l’accueil des réfugiés, qui se dérouleront du 7 au 29 Janvier, à l’initiative de l’association  **ASSARVA**  (Association Accueil des Réfugiés à Ville d’Avray).
 <!--more-->

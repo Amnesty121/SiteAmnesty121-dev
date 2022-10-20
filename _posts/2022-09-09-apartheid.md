@@ -10,7 +10,7 @@ Vendredi 14 octobre 2022 à 20h
 Salle Jean XXIII, 8 avenue Dutartre LE CHESNAY
 Entrée libre
 
-![image]({{site.url}}/SiteAmnesty121/assets/images/apartheid.jpg)
+![image]({{site.url}}/assets/images/apartheid.jpg)
 <!--more-->
 
 En association avec:

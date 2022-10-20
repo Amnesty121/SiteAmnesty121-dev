@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 
 Dans le cadre des élections législatives 2022, le groupe 121 a demandé aux candidats des circonscriptions [78-2](https://www.resultats-elections.interieur.gouv.fr/legislatives-2022/078/C107802.html) et [92-8](https://www.resultats-elections.interieur.gouv.fr/legislatives-2022/092/C109208.html), de signer, ou non, 10 engagements pour les droits humains, proposés par Amnesty International France. Nous sommes partis à la rencontre des candidats de ces deux circonscriptions afin de leur demander si ils étaient prêts à s'engager de défendre ces droits, qui nous paraissent fondamentaux, au cours de leur potentiel mandat.
 
-![image]({{site.url}}/SiteAmnesty121/assets/images/I5239.jpg)
+![image]({{site.url}}/assets/images/I5239.jpg)
 
 <!--more-->
 
@@ -23,8 +23,8 @@ Dans le cadre des élections législatives 2022, le groupe 121 a demandé aux ca
 9. Tout mettre en œuvre pour atteindre la neutralité carbone (zéro émission nette de gaz à effet de serre) en France à l’horizon 2050 au plus tard, afin de contribuer à empêcher la hausse mondiale des températures de +1,5°C par rapport à l’ère préindustrielle.
 10. Renforcer la loi sur le devoir de vigilance en élargissant son champ d’application et œuvrer à l’adoption d’une directive européenne ambitieuse consacrant cette protection en Europe.
 
-- [Manifeste d'AIF pour les élections]({{site.url}}/SiteAmnesty121/assets/pdf/manifeste-legislatives-final.pdf)
-- [Détails des 10 engagements]({{site.url}}/SiteAmnesty121/assets/pdf/10_engagements_législatives.pdf)
+- [Manifeste d'AIF pour les élections]({{site.url}}/assets/pdf/manifeste-legislatives-final.pdf)
+- [Détails des 10 engagements]({{site.url}}/assets/pdf/10_engagements_législatives.pdf)
 
 ## Voici les réponses des candidats que nous avons pu joindre et qui ont accepté de nous rencontrer
 

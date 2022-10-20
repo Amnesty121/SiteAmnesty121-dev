@@ -15,11 +15,11 @@ Soutenue par la LDH (Ligue des droits de l'Homme), MAN (Mouvement pour une Alter
 
 
 
-![image]({{site.url}}/SiteAmnesty121/assets/images/Apartheid/1.jpg)
+![image]({{site.url}}/assets/images/Apartheid/1.jpg)
 
 <!--more-->
 
-![image]({{site.url}}/SiteAmnesty121/assets/images/Apartheid/2.jpg)
-![image]({{site.url}}/SiteAmnesty121/assets/images/Apartheid/3.jpg)
-![image]({{site.url}}/SiteAmnesty121/assets/images/Apartheid/4.jpg)
-![image]({{site.url}}/SiteAmnesty121/assets/images/Apartheid/5.jpg)
+![image]({{site.url}}/assets/images/Apartheid/2.jpg)
+![image]({{site.url}}/assets/images/Apartheid/3.jpg)
+![image]({{site.url}}/assets/images/Apartheid/4.jpg)
+![image]({{site.url}}/assets/images/Apartheid/5.jpg)
