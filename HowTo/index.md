@@ -9,7 +9,7 @@ layout: default
 ## 5 minutes de temps en temps
 
 - Signez une pétition.
-- Allez sur le site [https://www.amnesty.fr](www.amnesty.fr) pour vous informer et pour signer en ligne les actions du moment.
+- Allez sur le site [www.amnesty.fr](https://www.amnesty.fr) pour vous informer et pour signer en ligne les actions du moment.
 
 ## 5 minutes par semaine, de chez vous
 
