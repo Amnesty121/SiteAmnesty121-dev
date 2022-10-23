@@ -41,6 +41,8 @@ $xl-screen: 80rem;
   --feed-post-back: var(--oc-gray-2);
   --feed-post-link: var(--oc-blue-8);
   --feed-post-bg: #2f3136;
+  --feed-post-border: #202225;
+  --feed-post-txt: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -64,5 +66,7 @@ $xl-screen: 80rem;
     --feed-post-back: var(--oc-gray-2);
     --feed-post-link: var(--oc-blue-4);
     --feed-post-bg: #313537;
+    --feed-post-bg: rgb(197, 181, 161);
+    --feed-post-txt: #ffffff;
   }
 }
