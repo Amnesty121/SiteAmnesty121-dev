@@ -1,0 +1,9 @@
+- title: Twitter
+  url: https://twitter.com/Amnesty121
+  icon: fab fa-twitter
+- title: Facebook
+  url: https://www.facebook.com/Amnesty-International-Ile-de-France-Sud-Ouest-110157085183478
+  icon: fab fa-facebook
+- title: Email
+  url: mailto:chavillevelizyviroflay@amnestyfrance.fr
+  icon: fas fa-envelope
