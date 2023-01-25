@@ -1,7 +1,8 @@
 import shutil
 import os
 
-fileName = "ouighour.xml"
+fileName = "itpo.xml"
+#fileName = "ouighour.xml"
 
 file = open(fileName)
 newFile = open("tmp.xml", "w")
