@@ -34,7 +34,6 @@ layout: default
        var parser = new DOMParser();
        var xmlDoc = parser.parseFromString(xhttp.responseText, "application/xml");
        
-    
        const Template = ({ title, domain, image, link, description }) => `
       <div class="m-2 w-full">
         <div class="grid w-[432px] max-w-full cursor-pointer items-start justify-self-start overflow-hidden rounded-[4px] border-l-[4px] border-[--feed-post-border] bg-[--feed-post-bg] font-[Helvetica]" onclick="window.open('${link}');">
@@ -86,9 +85,25 @@ layout: default
           articleFormattedMetadata.push({ title: title, domain: domain, image: image, link: link, description: description });
        }
        
-       $("div.feed-content").ready(function(){
-          $("div.feed-content").html(articleFormattedMetadata.reverse().map(Template).join(''));
-       });
+      fetch('./'+ topic +'.json')
+         .then((response) => response.json())
+         .then((json) => {
+            console.log(json);
+            articleFormattedMetadata = articleFormattedMetadata.concat(json.map((article)=> 
+            {
+               return {
+                  title:article.title,
+                  link: article.url,
+                  domain: article.site_name,
+                  image: article.images[0].url,
+                  description: article.description
+               };
+            }));
+            $("div.feed-content").ready(function(){
+               $("div.feed-content").html(articleFormattedMetadata.reverse().map(Template).join(''));
+            });
+         });
+
     </script>
     
     
