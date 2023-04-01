@@ -1,1 +1,65 @@
-[]
+[
+    {
+        "type": "article",
+        "title": "Peine de mort",
+        "url": "./pdm",
+        "images": [
+            {
+                "type": null,
+                "url": "https://amnesty121.github.io/SiteAmnesty121/assets/images/mort2.png",
+                "secure_url": null,
+                "width": null,
+                "height": null
+            }
+        ],
+        "audios": [],
+        "videos": [],
+        "description": "",
+        "determiner": null,
+        "locale": null,
+        "locale_alternate": [],
+        "site_name": ""
+    },
+    {
+        "type": "article",
+        "title": "Israël - Territoires palestiniens occupés",
+        "url": "./itpo",
+        "images": [
+            {
+                "type": null,
+                "url": "https://amnesty121.github.io/SiteAmnesty121/assets/images/itpo.png",
+                "secure_url": null,
+                "width": null,
+                "height": null
+            }
+        ],
+        "audios": [],
+        "videos": [],
+        "description": "",
+        "determiner": null,
+        "locale": null,
+        "locale_alternate": [],
+        "site_name": ""
+    },
+    {
+        "type": "article",
+        "title": "Ouïghours au Xinjiang",
+        "url": "./ouighour",
+        "images": [
+            {
+                "type": null,
+                "url": "https://amnesty121.github.io/SiteAmnesty121/assets/images/ouighour.png",
+                "secure_url": null,
+                "width": null,
+                "height": null
+            }
+        ],
+        "audios": [],
+        "videos": [],
+        "description": "",
+        "determiner": null,
+        "locale": null,
+        "locale_alternate": [],
+        "site_name": ""
+    }
+]

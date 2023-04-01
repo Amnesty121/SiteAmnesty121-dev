@@ -18,21 +18,7 @@ layout: default
     <script src="{{site.url}}/assets/js/jquery-3.6.0.min.js"></script>
     
     <script>
-       if (window.XMLHttpRequest) {
-       xhttp = new XMLHttpRequest();
-       } else {    // IE 5/6
-          xhttp = new ActiveXObject("Microsoft.XMLHTTP");
-       }
-    
-       xhttp.overrideMimeType('text/xml');
-    
        var topic = "{{page.topic}}";
-       
-       xhttp.open("GET", topic+".xml", false);
-       xhttp.send(null);
-       
-       var parser = new DOMParser();
-       var xmlDoc = parser.parseFromString(xhttp.responseText, "application/xml");
        
        const Template = ({ title, domain, image, link, description }) => `
       <div class="m-2 w-full">
@@ -49,42 +35,7 @@ layout: default
      </div> 
     `;
     
-       var articlesFeed = document.getElementById("feed");
-       var articles = xmlDoc.getElementsByTagName("article");
-       
-       var articleFormattedMetadata = [];
-    
-       for(let article of articles){
-          var title = article.getElementsByTagName("title")[0].childNodes[0].nodeValue;
-    
-          var domain = "";
-          var link = "";
-          var image = "";
-          var description = "";
-          
-          var metas = article.getElementsByTagName("meta");
-          for(let meta of metas){
-             var propertyType = meta.getAttribute("property");
-    
-             switch(propertyType){
-                case "twitter:domain":
-                   domain = meta.getAttribute("content");
-                   break;
-                case "og:url":
-                   link = meta.getAttribute("content");
-                   break;
-                case "og:image":
-                   image = meta.getAttribute("content");
-                   break;
-                case "og:description":
-                   description = meta.getAttribute("content");
-                   break;
-             }
-          }
-    
-          articleFormattedMetadata.push({ title: title, domain: domain, image: image, link: link, description: description });
-       }
-       
+       var articleFormattedMetadata= [];
       fetch('./'+ topic +'.json')
          .then((response) => response.json())
          .then((json) => {
