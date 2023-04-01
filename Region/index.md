@@ -9,6 +9,12 @@ layout: default
 - [Blog](http://amnestyidfso.over-blog.fr/)
 - [Facebook](https://www.facebook.com/profile.php?id=100085918315820)
 
+## Rambouillet
+
+- [Instagram](https://www.instagram.com/amnesty_rambouillet/?hl=en)
+- [Facebook](https://fr-ca.facebook.com/people/Amnesty-International-groupe-de-Rambouillet/100068198345345/)
+- [Page AIF](https://www.amnesty.fr/pres-de-chez-vous/rambouillet?previousSearch=?address=%C3%8Ele-de-France)
+
 ## Chaville Vélizy Viroflay Sèvres
 
 - [Site](http://www.site.amnesty121.fr/)
@@ -17,6 +23,8 @@ layout: default
 
 ## Versailles
 
+- [Instagram](https://www.instagram.com/amnesty_versailles/?hl=en)
+- [Instagram Antenne Jeunes](https://www.instagram.com/amnesty_jeunes_versailles/?hl=en)
 - [Facebook](https://www.facebook.com/AmnestyVersailles/)
 - [LinkedIn](https://www.linkedin.com/company/ai-france-gl-versailles-lechesnay-jouyenjosas/)
 - [Page AIF](https://www.amnesty.fr/pres-de-chez-vous/versailles-le-chesnay-st-cyr?fbclid=IwAR18ixRZz9eC63EJW5U9oBmyLXBU_oGEa4lM7NkI3YtsrVDXIChP9YaX-Y0)
@@ -31,10 +39,6 @@ layout: default
 
 - [Facebook](https://www.facebook.com/AmnestySaintQuentinEnYvelines)
 - [Page AIF](https://www.amnesty.fr/pres-de-chez-vous/saint-quentin-en-yvelines?previousSearch=?address=%C3%8Ele-de-France)
-
-## Rambouillet
-
-- [Page AIF](https://www.amnesty.fr/pres-de-chez-vous/rambouillet?previousSearch=?address=%C3%8Ele-de-France)
 
 ## AIF
 
