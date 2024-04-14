@@ -1,0 +1,27 @@
+{
+  "name": "siteamnesty121",
+  "version": "1.0.0",
+  "description": "[Lien](https://amnesty121.github.io/SiteAmnesty121/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amnesty121/SiteAmnesty121.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amnesty121/SiteAmnesty121/issues"
+  },
+  "homepage": "https://github.com/Amnesty121/SiteAmnesty121#readme",
+  "dependencies": {
+    "tinacms": "^1.6.1"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.43",
+    "@types/node": "^20.12.7"
+  }
+}
